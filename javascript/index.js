@@ -86,8 +86,8 @@ btnLeftElement.addEventListener('click', () => {
 // Reset/Split Button
 btnRightElement.addEventListener('click', () => {
   if (btnRightElement.classList.contains('reset')) {
-    chronometer.reset(); // Reset the chronometer
-    printTime(); // Update the display
+    chronometer.reset(); // Reseter cronometro
+    printTime(); // Update display
     clearSplits(); // Clear any previous splits
     setSplitBtn(); // Change the right button to "SPLIT"
   } else {

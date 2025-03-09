@@ -39,7 +39,7 @@ class Chronometer {
     this.currentTime = 0; // Resetea el tiempo a 0
   }
 
-  // Método para formatear el tiempo en el formato "mm:ss"
+  // Método para formatear el tiempo en el formato ("mm:ss")
   split() {
     const minutes = this.getMinutes(); // Obtener minutos
     const seconds = this.getSeconds(); // Obtener segundos
